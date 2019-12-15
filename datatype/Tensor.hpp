@@ -1,20 +1,18 @@
 #ifndef _DNN_TENSOR_
 #define _DNN_TENSOR_
 
-#include<iostream>
+#include <iostream>
 
-namespace DNN{
+namespace DNN {
 
-class Tensor{
-public:
-    Tensor();
-    virtual ~Tensor();
+class Tensor {
+ public:
+  Tensor();
+  virtual ~Tensor();
 
-    Tensor CreateTensor(); 
-
-
+  Tensor CreateTensor();
 };
 
-}
+}  // namespace DNN
 
 #endif
