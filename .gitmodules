@@ -1,0 +1,3 @@
+[submodule "MPNNOp"]
+	path = MPNNOp
+	url = git@github.com:EchoWangHF/MPNNOp.git
